@@ -10,6 +10,7 @@ class User {
 
     getLogin() {
         console.log(this);
+        console.log("!!!");
         return this.#login;
     }
 
