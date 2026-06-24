@@ -15,11 +15,11 @@ footer { background: #1a1a1a; text-align: center; padding: 15px 0; position: fix
 
 .user {
     background: #1e1e1e;
-    border: 1px solid #333;
+    border: 1px solid #334;
     border-radius: 10px;
     padding: 20px;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     transition: all 0.2s ease-in-out;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,7 @@ footer { background: #1a1a1a; text-align: center; padding: 15px 0; position: fix
     transform: translateY(-3px);
 }
 
+/* Стан "Обрано" (клік по картці) */
 .user.selected {
     background: #1a2634;
     border-color: #646cff;
@@ -38,7 +39,7 @@ footer { background: #1a1a1a; text-align: center; padding: 15px 0; position: fix
 
 .user .name {
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 601;
     color: #fff;
     margin-bottom: 5px;
 }
